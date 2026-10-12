@@ -1,0 +1,7 @@
+# dsh-quick-reload bundle patch.
+#
+# One insert mounts the bundle. The browser half is declared by
+# package.json dsh.client and attaches to this row's bare package name.
+- insert:
+    - id: dsh-quick-reload
+      name: 'dsh-quick-reload'

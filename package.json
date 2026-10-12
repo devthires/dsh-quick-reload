@@ -1,0 +1,48 @@
+{
+  "name": "dsh-quick-reload",
+  "version": "1.0.0",
+  "description": "Bind F5 to reload the DeepSeek Harness Web client, so newly installed skills and plugins appear without restarting the app.",
+  "type": "module",
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "reload",
+    "f5",
+    "shortcut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devthires/dsh-quick-reload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devthires/dsh-quick-reload/issues"
+  },
+  "homepage": "https://github.com/devthires/dsh-quick-reload#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

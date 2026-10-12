@@ -1,0 +1,9 @@
+# Normalize line endings: keep LF in the repository for every platform.
+* text=auto eol=lf
+
+# Explicit types for clarity.
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
