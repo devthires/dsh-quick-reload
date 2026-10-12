@@ -15,8 +15,9 @@
     "client.js",
     "cordis.patch.yml",
     "icon.svg",
+    "docs",
     "README.md",
-    "README.zh.md",
+    "README.en.md",
     "LICENSE"
   ],
   "keywords": [
